@@ -1,0 +1,73 @@
+/* Fundo suave */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f7d897, #fed6e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Título e texto */
+  h1 {
+    color: #1d1d1d;
+  }
+  .intro {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulário */
+  input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #d3cccc;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover {
+    background-color: #5146d9;
+  }
+  
+
+  #humorDisplay {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Mensagens */
+  #mensagemContainer {
+    margin-top: 20px;
+  }
+  #mensagemContainer img {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 12px;
+  }
+  
+  /* Esconder */
+  .hidden {
+    display: none;
+  }
